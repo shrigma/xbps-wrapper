@@ -4,8 +4,8 @@
 //this is terrible code with way too many if statements
 int main(int argc, char* argv[])
 {
-				const static char helptext[] = "xbps [options] [program]\n"
-        "-h for help (this screen)\n"
+	const static char helptext[] = "xbps [options] [program]\n"
+      	"-h for help (this screen)\n"
         "-i for installation mode\n"
         "-r for removal mode\n"
         "-q for query mode\n"
