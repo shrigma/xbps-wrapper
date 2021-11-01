@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
 	for(int i = 1; i < argc; i++)
 	{
 		pkgs[ltime] = argv[i];
-		time += 1;
+		ltime += 1;
 	}
     pkgs[ltime] = NULL;
     /* this executes the appropriate xbps command
